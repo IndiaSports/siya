@@ -527,3 +527,42 @@ src="https://www.facebook.com/tr?id=1607054460531231&ev=PageView&noscript=1"
 
 </body>
 </html>
+
+
+<!-- Floating Telegram Button -->
+<a href="https://t.me/+lpl9wSvnR3YyZjA1" 
+   id="tgFloatBtn"
+   target="_blank"
+   rel="noopener noreferrer">
+   <img src="https://indiasports.github.io/verified/20260311_152405.png" 
+        alt="join"
+        loading="lazy">
+</a>
+
+<style>
+#tgFloatBtn{
+position:fixed;
+bottom:20px;
+right:20px;
+z-index:999999;
+display:none;
+}
+#tgFloatBtn img{
+width:90px;
+height:auto;
+cursor:pointer;
+filter:drop-shadow(0 0 6px rgba(0,0,0,.4));
+transition:transform .2s ease;
+}
+#tgFloatBtn img:hover{
+transform:scale(1.05);
+}
+</style>
+
+<script>
+window.addEventListener("load",function(){
+setTimeout(function(){
+document.getElementById("tgFloatBtn").style.display="block";
+},3000);
+});
+</script>
